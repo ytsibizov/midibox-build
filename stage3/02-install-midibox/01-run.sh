@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-#git clone https://github.com/ytsibizov/midibox
+git clone https://github.com/ytsibizov/midibox
 
 install -v -o 1000 -g 1000 -d "${ROOTFS_DIR}/opt/midibox"
 install -v -o 1000 -g 1000 -m 644 "midibox/src/midibox.py" "${ROOTFS_DIR}/opt/midibox/"
